@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AnimeWorld — Los Mejores Animes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      margin:0;
+      font-family:'Montserrat', sans-serif;
+      background:#0a0a0f;
+      color:#fff;
+    }
+    header{
+      padding:1.5rem 2rem;
+      background:#11111a;
+      position:sticky;
+      top:0;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      box-shadow:0 4px 25px rgba(0,0,0,0.3);
+    }
+    header h1{
+      margin:0;
+      font-size:1.6rem;
+      font-weight:700;
+      color:#ff3666;
+    }
+    nav a{
+      margin-left:1rem;
+      color:#fff;
+      text-decoration:none;
+      font-weight:600;
+      transition:.2s;
+    }
+    nav a:hover{
+      color:#ff3666;
+    }
+    .hero{
+      padding:5rem 2rem;
+      text-align:center;
+      background:url("https://free-3dtextureshd.com/wp-content/uploads/2025/02/537.jpg.webp");
+      color:rgb(255, 255, 255)
+    }
+    .hero h2{
+      font-size:3rem;
+      margin-bottom:1rem;
+    }
+    .hero p{
+      font-size:1.2rem;
+      max-width:600px;
+      margin:auto;
+      opacity:.9;
+    }
+    .section{
+      padding:3rem 2rem;
+      max-width:1100px;
+      margin:auto;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:1.5rem;
+    }
+    .card{
+      background:#16161f;
+      padding:1.5rem;
+      border-radius:15px;
+      box-shadow:0 8px 25px rgba(0,0,0,0.25);
+      transition:.2s;
+    }
+    .card:hover{
+      transform:scale(1.03);
+    }
+    .card img{
+      width:100%;
+      border-radius:12px;
+      margin-bottom:1rem;
+    }
+    footer{
+      text-align:center;
+      padding:2rem;
+      background:#11111a;
+      margin-top:3rem;
+      opacity:.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AnimeWorld</h1>
+    <nav>
+      <a href="#top">Inicio</a>
+      <a href="#mejores">Top Animes</a>
+      <a href="#info">¿Qué es el anime?</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <h2>El mundo del Anime</h2>
+    <p>Descubre los animes más influyentes, emocionantes y populares que han marcado a millones de fans alrededor del mundo.</p>
+  </section>
+
+  <section class="section" id="info">
+    <h2>¿Qué es el anime?</h2>
+    <p>El anime es un estilo de animación originado en Japón que abarca una gran variedad de géneros: acción, drama, romance, fantasía, ciencia ficción y más. Su estilo artístico, desarrollo emocional y mundos imaginativos lo han convertido en un fenómeno global.</p>
+  </section>
+
+  <section class="section" id="mejores">
+    <h2>Los Mejores Animes</h2>
+    <div class="grid">
+
+      <div class="card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPb0vslEDNvw_9YdPn6LEWjf4_9KFesv7S1lTqlLv8PgqcOfJu_2lQZC-tNmXE9aBW31XyUTEmOJ-i7vRJpUMF1vhz4k2fFhzqxJiOqs4&s" alt="Attack on Titan">
+        <h3>Attack on Titan</h3>
+        <p>Una historia oscura, llena de misterio y batallas épicas. Uno de los animes más influyentes de la última década.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.justwatch.com/backdrop/210150595/s640/fullmetal-alchemist-brotherhood" alt="Fullmetal Alchemist">
+        <h3>Fullmetal Alchemist: Brotherhood</h3>
+        <p>Considerado por muchos el mejor anime jamás creado. Trama impecable, personajes profundos y momentos inolvidables.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/S/pv-target-images/0c9ce4e037546965d6b1f3807e9f8f549a113d32066b2bdb22ada5d179c0d89a.jpg" alt="Naruto">
+        <h3>Naruto</h3>
+        <p>Una historia de superación, amistad y poder. Naruto es un icono mundial del anime shonen.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/S/pv-target-images/5c57390c319ef27a7ecb1336ce2fa8d70dc93f814e95530e9302d696ea50c6c8.jpg" alt="One Piece">
+        <h3>One Piece</h3>
+        <p>Aventura épica que sigue a Luffy y su tripulación en busca del tesoro más grande del mundo.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://wallpapers.com/images/hd/demon-slayer-4k-pictures-5v5lz47uso2tx2kr.jpg" alt="Demon Slayer">
+        <h3>Demon Slayer</h3>
+        <p>Visualmente impresionante y emocional. Una de las series modernas más queridas por los fans.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pluto.tv/series/5e73a62fb16882001b38dec6/featuredImage.jpg?fill=blur&fit=fill&fm=jpg&h=900&q=70&w=1600&auto=&ixlib=react-9.1.5" alt="Death Note">
+        <h3>Death Note</h3>
+        <p>Thriller psicológico magistral, lleno de giros y un duelo intelectual legendario.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2025 · AnimeWorld — Creado por ChatGPT
+  </footer>
+
+</body>
+</html>
